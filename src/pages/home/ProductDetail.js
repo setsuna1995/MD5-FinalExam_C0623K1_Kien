@@ -13,7 +13,7 @@ export default function ProductDetail () {
                 setProduct(response.data);
             })
             .catch(error => {
-                console.error('Error fetching data:', error);
+                console.error('yError fetching data:', error);
             });
     }
     useEffect(() => {
